@@ -1,0 +1,81 @@
+/* src/styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* src/index.css */
+.case-study-content {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.case-study-content ul, 
+.case-study-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.case-study-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.case-study-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.case-study-content h1,
+.case-study-content h2,
+.case-study-content h3,
+.case-study-content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.case-study-content strong,
+.case-study-content b {
+  font-weight: 600;
+}
+
+.case-study-content blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #1976d2;
+  font-style: italic;
+}
+
+.case-study-content pre {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.case-study-content code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+}
+
